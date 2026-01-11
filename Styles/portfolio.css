@@ -30,10 +30,17 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+    /* cursor pointer is used to change the cursor style */
 }    
 /* main style */
 header {
     background-color: #FFF8F3;
+    background: url("../images/developer.png"),url(../images/header_bg.png), #fff8f3;
+    /* this attribute is used to use multiple images all at once */
+    background-repeat: no-repeat;
+    background-position: top left,bottom right  ;
+    /* this attribute is used to margin basically of background images all at once */
     padding: 51px ;
 }
 
@@ -59,4 +66,40 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+
+#banner{
+    /* border: 1px solid red; */
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight:bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+    /* this attribute is used to not keep any gap in between bottom */
 }
