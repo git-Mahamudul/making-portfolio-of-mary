@@ -18,6 +18,22 @@
     font-weight:bolder;
 }
 
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-heading{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
 .color-orange{
     color: #FD6E0A;
 }
@@ -102,4 +118,33 @@ nav .menu a{
     max-width: 585px;
     vertical-align: middle;
     /* this attribute is used to not keep any gap in between bottom */
+}
+
+#about{
+    padding: 130px;
+}
+
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.info-card h4{
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
 }
