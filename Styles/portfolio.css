@@ -224,3 +224,46 @@ nav .menu a{
 hr{
     margin: 30px 0px;
 }
+.text-align{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px
+}
+.footer-container{
+    display: flex;
+    width: 71%;
+    max-width: 1139px;
+    margin: 0px auto;
+    gap: 116px;
+}
+.social{
+    max-width: 562px;
+}
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.social p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin: 20px 0px 30px 0px;
+}
+.icons a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],.footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
