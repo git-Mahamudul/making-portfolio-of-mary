@@ -121,7 +121,7 @@ nav .menu a{
     /* this attribute is used to not keep any gap in between bottom */
 }
 
-#about{
+#about , #skills , #resume{
     padding: 130px;
 }
 
@@ -148,10 +148,6 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
     font-weight: bold;
-}
-
-#skills{
-    padding-top: 130px;
 }
 
 #skills .skills-container{
@@ -187,4 +183,44 @@ nav .menu a{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0px;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.card-title{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.card-info{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+}
+.card-text{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+hr{
+    margin: 30px 0px;
 }
